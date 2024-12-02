@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+
+#Temporary files
+*.o
+*.out
+
+# Editor-specific files
+.idea/
+.vscode/
+.swp
+
+# Exercices
+.exercises/
