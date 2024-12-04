@@ -97,5 +97,8 @@ int main() {
     printf("Distance %ld\n", distance);
     printf("Similarity %ld\n", similarity);
 
+    free_location_list(left_list);
+    free_location_list(right_list);
+
     return 0;
 }
